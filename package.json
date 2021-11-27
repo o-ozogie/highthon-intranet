@@ -1,0 +1,32 @@
+{
+  "name": "highthon-intranet",
+  "version": "1.0.0",
+  "description": "2022 하이톤 인트라넷",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-ozogie/highthon-intranet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o-ozogie/highthon-intranet/issues"
+  },
+  "homepage": "https://github.com/o-ozogie/highthon-intranet#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.37",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/request": "^2.48.3",
+    "chai": "^4.2.0",
+    "mocha": "^9.1.3",
+    "serverless-offline": "^5.12.1",
+    "serverless-plugin-typescript": "^2.1.0",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.3"
+  }
+}

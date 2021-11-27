@@ -1,0 +1,19 @@
+service: Highthon
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: ap-northeast-2
+
+functions:
+  hello:
+    handler: src/handlers.hello
+
+    events:
+      - http:
+          path: hello
+          method: get
